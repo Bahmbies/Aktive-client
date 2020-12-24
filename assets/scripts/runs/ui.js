@@ -14,7 +14,7 @@ const indexSuccess = (response) => {
   // show all runs in list format with a delete and update option
   $('#alert-msg').text('Cool! Get To It!!')
   $('#container').show()
-  $('#container').html()
+  $('#container').html('')
   $('#container').data()
   const runs = response.runs
 

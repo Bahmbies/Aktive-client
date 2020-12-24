@@ -19,5 +19,5 @@ $(() => {
   $('#update-form').on('submit', runEvents.onUpdateRun)
 
   $('body').on('click', '#run-delete', runEvents.onDeleteRun)
-  $('#container').text('')
+  $('#container').html('')
 })
