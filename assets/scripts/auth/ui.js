@@ -17,6 +17,7 @@ const signInSuccess = function (response) {
   $('#sign-out').show()
   $('#aktive-landing').show()
   $('#password-change').show()
+  $('#update-form').show()
   $('form').trigger('reset')
 }
 
@@ -40,6 +41,9 @@ const signOutSuccess = function (response) {
   $('#sign-out').hide()
   $('#aktive-landing').hide()
   $('form').trigger('reset')
+  $('#password-change').hide()
+  $('#update-form').hide()
+
 }
 
 const signOutFailed = function () {

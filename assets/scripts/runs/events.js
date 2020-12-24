@@ -34,7 +34,7 @@ const showRun = (event) => {
 }
 
 const onDeleteRun = (event) => {
-  const RunId = $(event.target).data('Run-id')
+  const RunId = $(event.target).data('run-id')
 
   $('#container').empty(RunId)
 
@@ -48,7 +48,7 @@ const onUpdateRun = (event) => {
 
   const data = getFormFields(event.target)
 
-  const RunId = $(event.target).data('Run-id')
+  // const RunId = $(event.target).data('run-id')
 
   api.update(data)
     .then(ui.updateSuccess)
