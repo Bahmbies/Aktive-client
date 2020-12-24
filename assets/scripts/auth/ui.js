@@ -17,6 +17,7 @@ const signInSuccess = function (response) {
   $('#sign-out').show()
   $('#aktive-landing').show()
   $('#password-change').show()
+  $('#update-form').show()
   $('form').trigger('reset')
 }
 
