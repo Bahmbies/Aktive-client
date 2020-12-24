@@ -48,7 +48,7 @@ const onUpdateRun = (event) => {
 
   const data = getFormFields(event.target)
 
-  // const RunId = $(event.target).data('run-id')
+  const RunId = $(event.target).data('run-id')
 
   api.update(data)
     .then(ui.updateSuccess)
