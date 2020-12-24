@@ -1,1 +1,121 @@
 @import '~bootstrap/scss/bootstrap';
+
+
+body {
+    background-image: url(https://cdn.shopify.com/s/files/1/0083/1372/articles/P1110255_880x.JPG?v=1537894305);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    padding: 10px;
+    font-family: 'Staatliches', cursive;
+     color: #131313;
+     letter-spacing: .15em;
+     text-shadow: 5px 3px 0 black, 5px 4px 0 white, 5px 7px 0 yellow;
+     color: rgba(50, 122, 86, 0.555);
+     margin: 50px;
+     font-size: 95px;
+    text-align: center;
+    overflow: hidden;
+    // border-right: .15em solid rgba(255, 255, 0, 0.185);
+    white-space: nowrap;
+    animation: fadeIn 3s;
+    opacity: 1;
+    margin: 0 auto;
+
+}
+
+@keyframes fadeIn {
+    from { opacity: 0;}
+ 
+
+}
+#alert-msg, #sign-up-msg, #sign-in-msg, #password-change-msg, #update-run-msg {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: .1em;
+    text-shadow: 1px 5px 0 black, 1px 6px 0 yellow, 1px 8px 0 black;
+    color: rgba(50, 122, 86, 0.555);
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    animation: fadeIn 3s;
+    opacity: 1;
+    }
+
+.sign-in-input, .sign-up-input, .password-change-input, .runs-landing-input, .update-run-input {
+        text-align: center;
+        animation: fadeIn 3s;
+        opacity: 1;
+        
+    }
+
+
+input[type="email"], input[type="password"], input[type="text"], input[type="title"] {
+        background-color: rgba(8, 32, 8, 0.493);
+        box-shadow: 2px 1px 2px green;
+        color:rgb(236, 230, 230);
+        font-size: 20px;
+        animation: fadeIn 3s;
+        opacity: 1;
+    
+    }
+    
+input[type="submit"] {
+        box-shadow: 2px 1px 2px black;
+        color: whitesmoke;
+        background-color: rgba(32, 16, 16, 0.438);
+        animation: fadeIn 3s;
+        opacity: 1;
+    
+    }
+#sign-out-btn {
+    box-shadow: 2px 1px 2px white;
+    color: whitesmoke;
+    background-color: rgba(32, 16, 16, 0.438);
+    margin: 0 auto;
+    font-size: 20px;
+    display: grid;
+    text-align: center;
+}
+
+#landing-msg {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: .15em;
+    text-shadow: 1px 5px 0 black, 1px 6px 0 yellow, 1px 8px 0 black;
+    color: rgba(50, 122, 86, 0.555);
+    font-size: 45px;
+    margin-bottom: 15px;
+    text-align: center;
+    animation: fadeIn 3s;
+    opacity: 1;
+}
+
+.run-input {
+    background-color: rgba(32, 16, 16, 0.438);
+    box-shadow: 2px 1px 2px white;
+    color: white;
+    size: 50px;
+    width: 650px;
+    
+}
+
+#add-btn {
+    box-shadow: 2px 1px 2px white;
+    color: whitesmoke;
+    background-color: black;   
+}
+
+.runs-landing-input {
+    position: relative;
+}
+
+#container {
+    font-family: 'Staatliches', cursive;
+    color: wheat;
+    box-shadow: 2px 1px 2px white;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+
+}
